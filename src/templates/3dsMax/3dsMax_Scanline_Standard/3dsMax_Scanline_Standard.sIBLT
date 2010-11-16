@@ -163,7 +163,7 @@ sIBL_GUI
 		--									The map parameters are passed in as references to keep memory
 		--									usage down if the function ends up recursing.
 
-		if (classOf mtl != Multimaterial) then (
+		if (classOf mtl != Multimaterial) then 
 		(
 			try
 			(
