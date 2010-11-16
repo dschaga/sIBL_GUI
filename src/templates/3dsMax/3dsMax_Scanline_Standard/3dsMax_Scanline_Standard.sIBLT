@@ -128,11 +128,11 @@ sIBL_GUI
 		if (bmp == undefined) then
 		(
 			bmp = Bitmaptexture()
+		)
 
-			if (envMap) then
-			(
-				environmentMap = bmp
-			)
+		if (envMap) then
+		(
+			environmentMap = bmp
 		)
 
 		bmp.filename = bmpFilename
